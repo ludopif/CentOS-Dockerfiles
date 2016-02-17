@@ -6,4 +6,4 @@
 rm -rf /run/httpd/*
 
 #exec /usr/sbin/apachectl -D FOREGROUND
-exec /bin/bash
+exec /usr/bin/httpd
