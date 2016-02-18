@@ -8,4 +8,4 @@ rm -rf /run/httpd/*
 sleep 300
 
 #exec /usr/sbin/apachectl -D FOREGROUND
-exec /usr/bin/httpd
+exec /bin/bash
