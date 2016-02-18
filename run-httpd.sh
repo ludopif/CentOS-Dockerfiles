@@ -5,5 +5,7 @@
 # if it thinks it is already running.
 rm -rf /run/httpd/*
 
+sleep 60
+
 #exec /usr/sbin/apachectl -D FOREGROUND
 exec /bin/bash
