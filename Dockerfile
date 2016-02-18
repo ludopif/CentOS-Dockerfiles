@@ -11,7 +11,7 @@ RUN yum -y update; yum clean all
 RUN yum -y install httpd; yum clean all
 #RUN echo "Apache HTTPD" >> /var/www/html/index.html
 
-EXPOSE 80
+EXPOSE 8080
 
 # Simple startup script to avoid some issues observed with container restart 
 ADD run-httpd.sh /run-httpd.sh
